@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.indexHeading{
+    color:#92B901;
+    margin-bottom:10px;
+}
+.aboutHeading{
+    color:#7B68EE;
+    margin-bottom:10px;
+}
+.galleryHeading{
+    color:#48D1CC;
+    margin-bottom:10px;
+
+}
+/*nav styling*/
+#navgation{
+    list-style:none outside none;
+    
+}
+
+#navgation ul, nav{
+    padding:0;
+    margin:0;
+    
+}
+nav li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    padding:5px 70px 5px 70px;
+}
+
+#nav1{ 
+    background:#92B901;
+    transition-property: background, color;
+    transition-duration: 1s, 1s;
+}
+#nav2{
+    background:#7B68EE;
+    transition-property: background, color;
+    transition-duration: 1s, 1s;
+}
+#nav3{
+    background:#48D1CC;
+    transition-property: background, color;
+    transition-duration: 1s, 1s;
+}
+#nav1:hover{
+    background-color:#2F4F4F;
+    color:#FFFFFF;
+}
+#nav2:hover{
+    background-color:#483D8B;
+    color:#FFFFFF;
+}
+#nav3:hover{
+    background-color:#1E90FF;
+    color:#FFFFFF;
+}
+/*nav styling ends*/
+
+h1, h2, h3{
+    margin:40px 0 0 0;
+    padding:0;
+}
+
+
+/*main content*/
+#main{
+    width:1024px;
+    margin:0 auto;
+}
+
+#fb_link{
+    width:100px;
+}
+/*main content ends*/
+
+/*awards table(about page)*/
+#awards{
+    width:700px;
+
+}
+#awards, #awards tr,#awards td{
+    border:2px solid black;
+    border-collapse:collapse; 
+}
+/*awards table(about page) ends*/
+
+/*awards table(gallery page)*/
+#image_gallery table{
+    width:1024px;
+    height:600px;
+}
+#image_gallery table,#image_gallery tr,#image_gallery td{
+     border:1px solid gray;
+     border-collapse:collapse;
+    
+}
+.gallery{
+    width:341px;
+}
+
+#video_gallery table{
+    width:1024px;
+    height:600px;
+}
+#video_gallery table,#video_gallery tr,#video_gallery td{
+     border:1px dashed red;
+     border-collapse:collapse;
+    
+}
+
+/*awards table(gallery page) ends*/
+
+
+
+
+footer{
+    width:300px;
+    margin:50px auto 0 auto;
+}
